@@ -6,6 +6,17 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.primary-btn{
+    border: none;
+    color: #fff;
+    font-size: 1.08rem;
+    font-weight: 600;
+    background-color: #FF900E;
+    border-radius: 8px;
+    padding: 1.08rem 1.2rem;
+    cursor: pointer;
+}
+
 .space{
     margin-right: 8rem;
     margin-left: 8rem;
@@ -45,4 +56,79 @@ ul li> a{
     color: #424242;
     font-size: 1.08rem;
     font-weight: 500;
+}
+
+/* banner container styles  */
+.banner-content{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.banner-title{
+    color: #131313;
+    font-size: 4rem;
+}
+
+
+.banner-description{
+    margin: 2rem;
+    color: #727272; 
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner-img{
+    margin-top: 2.8rem;
+}
+.banner-img> img{
+    width: 100%;
+}
+
+
+
+
+
+/* Responsive styles  */
+
+/* Responsive mobile device  */
+
+@media screen and (max-width: 676px) {
+    .nav-container{
+        flex-direction: column;
+    }
+
+    .nav-title{
+        margin-bottom: 1rem;
+    }
+
+    .space{
+        margin-right: 0.8rem;
+        margin-left: 0.8rem;
+    }
+
+    .banner-title{
+        font-size: 2rem;
+    }
+    .nav-container ul{
+        gap: 10px;
+    }
+}
+
+
+
+/* Responsive Tablet  device  */
+
+
+@media screen and (min-width: 676px) and (max-width: 960px) {
+    .space{
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+
+    .nav-title{
+        margin-bottom: 1rem;
+    }
 }
